@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: reservaDePoltrona
+datasources:
+  default:
+    driver-class-name: org.postgresql.Driver
+    db-type: postgres
+jpa.default.properties.hibernate.hbm2ddl.auto: update
+netty:
+  default:
+    allocator:
+      max-order: 3
